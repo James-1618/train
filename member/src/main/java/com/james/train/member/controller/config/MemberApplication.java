@@ -1,5 +1,6 @@
-package com.james.train.member.config;
+package com.james.train.member.controller.config;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -10,6 +11,7 @@ import org.springframework.core.env.Environment;
 
 @SpringBootApplication
 @ComponentScan("com.james")
+@MapperScan("com.james.train.member.mapper")
 public class MemberApplication {
     private static final Logger LOG = LoggerFactory.getLogger(MemberApplication.class);
     public static void main(String[] args) {

@@ -7,11 +7,12 @@
         <module>member</module>
         <module>common</module>
         <module>gateway</module>
+        <module>generator</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.6</version>
+        <version>3.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
@@ -21,17 +22,10 @@
     <description>train</description>
     <properties>
         <java.version>17</java.version>
-        <spring-cloud.version>2022.0.2</spring-cloud.version>
+        <spring-cloud.version>2022.0.0</spring-cloud.version>
     </properties>
-
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>com.example</groupId>
-                <artifactId>common</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -53,7 +47,7 @@
             </dependency>
 
             <dependency>
-                <groupId>com.james</groupId>
+                <groupId>com.example</groupId>
                 <artifactId>common</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
@@ -90,12 +84,11 @@
 
             <!--至少3.18.0版本，才支持spring boot 3-->
             <!--升级到3.20.0，否则打包生产会报错：Could not initialize class org.redisson.spring.data.connection.RedissonConnection-->
-            <dependency>
-                <groupId>org.redisson</groupId>
-                <artifactId>redisson-spring-boot-starter</artifactId>
-                <version>3.21.0</version>
-            </dependency>
-
+<!--            <dependency>-->
+<!--                <groupId>org.redisson</groupId>-->
+<!--                <artifactId>redisson-spring-boot-starter</artifactId>-->
+<!--                <version>3.21.0</version>-->
+<!--            </dependency>-->
         </dependencies>
     </dependencyManagement>
 
