@@ -2402,3 +2402,280 @@ org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'applic
 2023-05-21 19:52:01.271 INFO  com.james.train.member.service.MemberService      :63   [32m                  [0;39m 对接短信通道
 2023-05-21 19:52:01.273 INFO  com.james.train.common.aspect.LogAspect           :85   [32m                  [0;39m 返回结果: {"success":true}
 2023-05-21 19:52:01.274 INFO  com.james.train.common.aspect.LogAspect           :86   [32m                  [0;39m ------------- 结束 耗时：413 ms -------------
+2023-05-21 20:45:24.350 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-05-21 20:45:24.352 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-05-21 20:58:40.704 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-05-21 20:58:40.759 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-21 20:58:41.127 INFO  c.j.t.member.controller.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-05-21 20:58:41.581 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=319de442-c6a3-3169-ba64-a8518cff1195
+2023-05-21 20:58:42.063 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-05-21 20:58:42.070 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-05-21 20:58:42.071 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-05-21 20:58:42.071 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-21 20:58:42.119 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-05-21 20:58:42.120 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 981 ms
+2023-05-21 20:58:42.658 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-05-21 20:58:42.798 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-05-21 20:58:42.958 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-05-21 20:58:42.972 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-05-21 20:58:43.090 INFO  c.j.t.member.controller.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 2.885 seconds (process running for 3.491)
+2023-05-21 20:58:43.092 INFO  c.j.t.member.controller.config.MemberApplication  :20   [32m                  [0;39m 启动成功！！
+2023-05-21 20:58:43.092 INFO  c.j.t.member.controller.config.MemberApplication  :21   [32m                  [0;39m 测试地址：	http://127.0.0.1:8001/member/hello
+2023-05-21 20:58:55.893 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-21 20:58:55.893 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-05-21 20:58:55.894 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-05-21 20:58:55.916 INFO  com.james.train.common.aspect.LogAspect           :49   [32m                  [0;39m ------------- 开始 -------------
+2023-05-21 20:58:55.916 INFO  com.james.train.common.aspect.LogAspect           :50   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2023-05-21 20:58:55.916 INFO  com.james.train.common.aspect.LogAspect           :51   [32m                  [0;39m 类名方法: com.james.train.member.controller.TestController.hello
+2023-05-21 20:58:55.916 INFO  com.james.train.common.aspect.LogAspect           :52   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-05-21 20:58:55.942 INFO  com.james.train.common.aspect.LogAspect           :73   [32m                  [0;39m 请求参数: []
+2023-05-21 20:58:55.943 INFO  com.james.train.common.aspect.LogAspect           :85   [32m                  [0;39m 返回结果: null
+2023-05-21 20:58:55.943 INFO  com.james.train.common.aspect.LogAspect           :86   [32m                  [0;39m ------------- 结束 耗时：28 ms -------------
+2023-05-21 20:58:59.595 ERROR c.j.t.common.controller.ControllerExceptionHandler:34   [32m                  [0;39m 系统异常：
+org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:208)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:163)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:136)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-21 20:58:59.622 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/x-www-form-urlencoded;charset=UTF-8' is not supported]
+2023-05-21 21:00:51.229 INFO  com.james.train.common.aspect.LogAspect           :49   [32m                  [0;39m ------------- 开始 -------------
+2023-05-21 21:00:51.230 INFO  com.james.train.common.aspect.LogAspect           :50   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/send-code POST
+2023-05-21 21:00:51.231 INFO  com.james.train.common.aspect.LogAspect           :51   [32m                  [0;39m 类名方法: com.james.train.member.controller.MemberController.sendCode
+2023-05-21 21:00:51.231 INFO  com.james.train.common.aspect.LogAspect           :52   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-05-21 21:00:51.245 INFO  com.james.train.common.aspect.LogAspect           :73   [32m                  [0;39m 请求参数: [{"mobile":"12345678912"}]
+2023-05-21 21:00:51.291 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-05-21 21:00:51.540 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bbb0b69
+2023-05-21 21:00:51.543 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-05-21 21:00:51.548 DEBUG c.j.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-05-21 21:00:51.568 DEBUG c.j.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 12345678912(String)
+2023-05-21 21:00:51.594 TRACE c.j.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-05-21 21:00:51.595 TRACE c.j.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1684669619028, 12345678912
+2023-05-21 21:00:51.595 DEBUG c.j.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2023-05-21 21:00:51.601 INFO  com.james.train.member.service.MemberService      :51   [32m                  [0;39m 手机号存在，不插入记录
+2023-05-21 21:00:51.601 INFO  com.james.train.member.service.MemberService      :57   [32m                  [0;39m 生成短信验证码：8888
+2023-05-21 21:00:51.601 INFO  com.james.train.member.service.MemberService      :60   [32m                  [0;39m 保存短信记录表
+2023-05-21 21:00:51.601 INFO  com.james.train.member.service.MemberService      :63   [32m                  [0;39m 对接短信通道
+2023-05-21 21:00:51.604 INFO  com.james.train.common.aspect.LogAspect           :85   [32m                  [0;39m 返回结果: {"success":true}
+2023-05-21 21:00:51.604 INFO  com.james.train.common.aspect.LogAspect           :86   [32m                  [0;39m ------------- 结束 耗时：375 ms -------------
+2023-05-21 21:07:00.680 ERROR c.j.t.common.controller.ControllerExceptionHandler:34   [32m                  [0;39m 系统异常：
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:261)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:441)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:126)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:504)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1274)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-21 21:07:00.682 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-05-21 21:08:24.312 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-05-21 21:08:24.318 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-05-21 21:08:27.401 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-05-21 21:08:27.449 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-21 21:08:27.818 INFO  c.j.t.member.controller.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-05-21 21:08:28.276 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=319de442-c6a3-3169-ba64-a8518cff1195
+2023-05-21 21:08:28.758 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-05-21 21:08:28.765 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-05-21 21:08:28.765 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-05-21 21:08:28.766 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-21 21:08:28.815 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-05-21 21:08:28.815 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 984 ms
+2023-05-21 21:08:29.363 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-05-21 21:08:29.504 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-05-21 21:08:29.700 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-05-21 21:08:29.718 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-05-21 21:08:29.860 INFO  c.j.t.member.controller.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 2.943 seconds (process running for 3.425)
+2023-05-21 21:08:29.862 INFO  c.j.t.member.controller.config.MemberApplication  :20   [32m                  [0;39m 启动成功！！
+2023-05-21 21:08:29.862 INFO  c.j.t.member.controller.config.MemberApplication  :21   [32m                  [0;39m 测试地址：	http://127.0.0.1:8001/member/hello
+2023-05-21 21:08:42.617 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-21 21:08:42.618 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-05-21 21:08:42.619 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-05-21 21:08:42.716 INFO  com.james.train.common.aspect.LogAspect           :49   [32m                  [0;39m ------------- 开始 -------------
+2023-05-21 21:08:42.717 INFO  com.james.train.common.aspect.LogAspect           :50   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2023-05-21 21:08:42.717 INFO  com.james.train.common.aspect.LogAspect           :51   [32m                  [0;39m 类名方法: com.james.train.member.controller.MemberController.sendCode
+2023-05-21 21:08:42.717 INFO  com.james.train.common.aspect.LogAspect           :52   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-05-21 21:08:42.757 INFO  com.james.train.common.aspect.LogAspect           :73   [32m                  [0;39m 请求参数: [{"mobile":"12345678912"}]
+2023-05-21 21:08:42.796 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-05-21 21:08:43.022 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22f65be6
+2023-05-21 21:08:43.024 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-05-21 21:08:43.030 DEBUG c.j.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-05-21 21:08:43.049 DEBUG c.j.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 12345678912(String)
+2023-05-21 21:08:43.075 TRACE c.j.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-05-21 21:08:43.075 TRACE c.j.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1684669619028, 12345678912
+2023-05-21 21:08:43.076 DEBUG c.j.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2023-05-21 21:08:43.081 INFO  com.james.train.member.service.MemberService      :51   [32m                  [0;39m 手机号存在，不插入记录
+2023-05-21 21:08:43.081 INFO  com.james.train.member.service.MemberService      :57   [32m                  [0;39m 生成短信验证码：8888
+2023-05-21 21:08:43.081 INFO  com.james.train.member.service.MemberService      :60   [32m                  [0;39m 保存短信记录表
+2023-05-21 21:08:43.083 INFO  com.james.train.member.service.MemberService      :63   [32m                  [0;39m 对接短信通道
+2023-05-21 21:08:43.084 INFO  com.james.train.common.aspect.LogAspect           :85   [32m                  [0;39m 返回结果: {"success":true}
+2023-05-21 21:08:43.084 INFO  com.james.train.common.aspect.LogAspect           :86   [32m                  [0;39m ------------- 结束 耗时：369 ms -------------
+2023-05-21 21:08:47.147 ERROR c.j.t.common.controller.ControllerExceptionHandler:34   [32m                  [0;39m 系统异常：
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:261)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:441)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:126)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:504)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1274)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-21 21:08:47.152 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-05-21 21:08:50.985 INFO  com.james.train.common.aspect.LogAspect           :49   [32m                  [0;39m ------------- 开始 -------------
+2023-05-21 21:08:50.986 INFO  com.james.train.common.aspect.LogAspect           :50   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2023-05-21 21:08:50.986 INFO  com.james.train.common.aspect.LogAspect           :51   [32m                  [0;39m 类名方法: com.james.train.member.controller.MemberController.sendCode
+2023-05-21 21:08:50.986 INFO  com.james.train.common.aspect.LogAspect           :52   [32m                  [0;39m 远程地址: 127.0.0.1
+2023-05-21 21:08:50.986 INFO  com.james.train.common.aspect.LogAspect           :73   [32m                  [0;39m 请求参数: [{"mobile":"12345678912"}]
+2023-05-21 21:08:50.999 DEBUG c.j.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-05-21 21:08:50.999 DEBUG c.j.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 12345678912(String)
+2023-05-21 21:08:51.010 TRACE c.j.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-05-21 21:08:51.010 TRACE c.j.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1684669619028, 12345678912
+2023-05-21 21:08:51.011 DEBUG c.j.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2023-05-21 21:08:51.011 INFO  com.james.train.member.service.MemberService      :51   [32m                  [0;39m 手机号存在，不插入记录
+2023-05-21 21:08:51.011 INFO  com.james.train.member.service.MemberService      :57   [32m                  [0;39m 生成短信验证码：8888
+2023-05-21 21:08:51.011 INFO  com.james.train.member.service.MemberService      :60   [32m                  [0;39m 保存短信记录表
+2023-05-21 21:08:51.011 INFO  com.james.train.member.service.MemberService      :63   [32m                  [0;39m 对接短信通道
+2023-05-21 21:08:51.011 INFO  com.james.train.common.aspect.LogAspect           :85   [32m                  [0;39m 返回结果: {"success":true}
+2023-05-21 21:08:51.011 INFO  com.james.train.common.aspect.LogAspect           :86   [32m                  [0;39m ------------- 结束 耗时：26 ms -------------
+2023-05-21 21:42:48.317 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-05-21 21:42:48.319 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-05-21 21:42:51.431 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-05-21 21:42:51.479 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-21 21:42:51.858 INFO  c.j.t.member.controller.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-05-21 21:42:52.319 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=319de442-c6a3-3169-ba64-a8518cff1195
+2023-05-21 21:42:52.800 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-05-21 21:42:52.807 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-05-21 21:42:52.808 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-05-21 21:42:52.808 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-05-21 21:42:52.856 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-05-21 21:42:52.856 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 985 ms
+2023-05-21 21:42:53.381 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2023-05-21 21:42:53.518 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-05-21 21:42:53.680 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-05-21 21:42:53.695 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-05-21 21:42:53.813 INFO  c.j.t.member.controller.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 2.867 seconds (process running for 3.482)
+2023-05-21 21:42:53.814 INFO  c.j.t.member.controller.config.MemberApplication  :20   [32m                  [0;39m 启动成功！！
+2023-05-21 21:42:53.815 INFO  c.j.t.member.controller.config.MemberApplication  :21   [32m                  [0;39m 测试地址：	http://127.0.0.1:8001/member/hello
